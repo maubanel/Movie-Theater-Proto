@@ -29,7 +29,7 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"","path":"",},"objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"value":"\"Directional Light\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"Light_Type","path":"objects/obj_light/obj_light.yy",},"objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"value":"\"Directional Light\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Demo",
