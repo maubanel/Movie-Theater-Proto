@@ -103,13 +103,13 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_lighting_demo_single_spot","path":"rooms/rm_lighting_demo_single_spot/rm_lighting_demo_single_spot.yy",},},
     {"roomId":{"name":"rm_movie_theater","path":"rooms/rm_movie_theater/rm_movie_theater.yy",},},
     {"roomId":{"name":"rm_lighting_demo_many","path":"rooms/rm_lighting_demo_many/rm_lighting_demo_many.yy",},},
     {"roomId":{"name":"rm_lighting_demo_single_area","path":"rooms/rm_lighting_demo_single_area/rm_lighting_demo_single_area.yy",},},
     {"roomId":{"name":"rm_lighting_demo_single_directional","path":"rooms/rm_lighting_demo_single_directional/rm_lighting_demo_single_directional.yy",},},
     {"roomId":{"name":"rm_lighting_demo_single_line","path":"rooms/rm_lighting_demo_single_line/rm_lighting_demo_single_line.yy",},},
     {"roomId":{"name":"rm_lighting_demo_single_point","path":"rooms/rm_lighting_demo_single_point/rm_lighting_demo_single_point.yy",},},
-    {"roomId":{"name":"rm_lighting_demo_single_spot","path":"rooms/rm_lighting_demo_single_spot/rm_lighting_demo_single_spot.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
