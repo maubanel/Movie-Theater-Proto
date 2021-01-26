@@ -5,4 +5,6 @@ with(obj_light){
 	shader_set_uniform_f(_u_pos,x,y);
 	draw_rectangle(0,0,320,180,0);
 	shader_reset();
+	
+	vertex_submit(_vb,pr_trianglelist,-1);
 }
