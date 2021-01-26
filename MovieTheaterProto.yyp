@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_setup","path":"objects/obj_setup/obj_setup.yy",},"order":3,},
+    {"id":{"name":"shd_shadow","path":"shaders/shd_shadow/shd_shadow.yy",},"order":3,},
     {"id":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"order":5,},
     {"id":{"name":"obj_movinglight","path":"objects/obj_movinglight/obj_movinglight.yy",},"order":6,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":4,},
