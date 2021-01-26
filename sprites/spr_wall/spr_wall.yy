@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 864,
-  "bbox_top": 64,
-  "bbox_bottom": 1151,
+  "bbox_right": 63,
+  "bbox_top": 0,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 2048,
-  "height": 2048,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"492c3503-1054-447f-8c1d-9bc354d7749a","path":"sprites/spr_chairs/spr_chairs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"492c3503-1054-447f-8c1d-9bc354d7749a","path":"sprites/spr_chairs/spr_chairs.yy",},"LayerId":{"name":"69fcf96c-4f8c-4444-852c-82b1e10ebb94","path":"sprites/spr_chairs/spr_chairs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chairs","path":"sprites/spr_chairs/spr_chairs.yy",},"resourceVersion":"1.0","name":"492c3503-1054-447f-8c1d-9bc354d7749a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e5b63fe2-95e7-4ce6-9e67-d2dbff9a6f6c","path":"sprites/spr_wall/spr_wall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e5b63fe2-95e7-4ce6-9e67-d2dbff9a6f6c","path":"sprites/spr_wall/spr_wall.yy",},"LayerId":{"name":"5c510759-1273-44b1-93ae-9b23bbf17234","path":"sprites/spr_wall/spr_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"resourceVersion":"1.0","name":"e5b63fe2-95e7-4ce6-9e67-d2dbff9a6f6c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_chairs","path":"sprites/spr_chairs/spr_chairs.yy",},
+    "spriteId": {"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"93cdef7f-810c-4d78-acf7-1395a5a30a0f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"492c3503-1054-447f-8c1d-9bc354d7749a","path":"sprites/spr_chairs/spr_chairs.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8ac42387-91ac-429b-a2ad-2e080db66442","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e5b63fe2-95e7-4ce6-9e67-d2dbff9a6f6c","path":"sprites/spr_wall/spr_wall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_chairs","path":"sprites/spr_chairs/spr_chairs.yy",},
+    "parent": {"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_chairs",
+    "name": "spr_wall",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"69fcf96c-4f8c-4444-852c-82b1e10ebb94","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5c510759-1273-44b1-93ae-9b23bbf17234","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "MovieTheaterProto",
     "path": "MovieTheaterProto.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "spr_chairs",
+  "name": "spr_wall",
   "tags": [],
   "resourceType": "GMSprite",
 }
