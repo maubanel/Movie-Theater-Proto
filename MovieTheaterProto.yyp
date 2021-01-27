@@ -28,8 +28,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_light_test","path":"rooms/rm_light_test/rm_light_test.yy",},},
     {"roomId":{"name":"rm_movie_theater","path":"rooms/rm_movie_theater/rm_movie_theater.yy",},},
+    {"roomId":{"name":"rm_light_test","path":"rooms/rm_light_test/rm_light_test.yy",},},
     {"roomId":{"name":"","path":"",},},
     {"roomId":{"name":"","path":"",},},
     {"roomId":{"name":"","path":"",},},
