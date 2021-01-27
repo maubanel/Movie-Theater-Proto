@@ -7,7 +7,7 @@ void main()
 {
 	vec2 pos = in_Position.xy;
 	if(in_Position.z > 0.){
-		vec2 dis = pos - u_pos;
+		vec2 dis = pos - u_pos ; 
 		pos += dis/sqrt(dis.x*dis.x + dis.y*dis.y) * 100000.;
 	}
     vec4 object_space_pos = vec4( pos.x, pos.y, u_z-0.5, 1.0);

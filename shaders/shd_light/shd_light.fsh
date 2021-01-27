@@ -1,8 +1,8 @@
-varying vec2 pos;
+varying vec2 pos; //current pixel position
 
-uniform vec2 u_pos;
+uniform vec2 u_pos; //light source position
 
-const float zz = 32.;
+const float zz = 300.; //larger zz, larger light
 
 void main()
 {
