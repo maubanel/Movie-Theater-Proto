@@ -26,6 +26,7 @@
     {"id":{"name":"obj_light_demo","path":"objects/obj_light_demo/obj_light_demo.yy",},"order":3,},
     {"id":{"name":"light_add_to_world","path":"scripts/light_add_to_world/light_add_to_world.yy",},"order":4,},
     {"id":{"name":"spr_light_spot","path":"sprites/spr_light_spot/spr_light_spot.yy",},"order":7,},
+    {"id":{"name":"obj_movie_player","path":"objects/obj_movie_player/obj_movie_player.yy",},"order":3,},
     {"id":{"name":"spr_lut_light_intensity_area","path":"sprites/spr_lut_light_intensity_area/spr_lut_light_intensity_area.yy",},"order":0,},
     {"id":{"name":"obj_spot_light_rotate","path":"objects/obj_spot_light_rotate/obj_spot_light_rotate.yy",},"order":8,},
     {"id":{"name":"obj_shadow_caster","path":"objects/obj_shadow_caster/obj_shadow_caster.yy",},"order":3,},
