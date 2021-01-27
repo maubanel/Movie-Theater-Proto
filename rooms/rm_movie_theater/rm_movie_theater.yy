@@ -15,7 +15,11 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":352.0,"resourceVersion":"1.0","name":"inst_26B869DC","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_movinglight","path":"objects/obj_movinglight/obj_movinglight.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,"resourceVersion":"1.0","name":"inst_440DADF6","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_setup","path":"objects/obj_setup/obj_setup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-96.0,"y":-192.0,"resourceVersion":"1.0","name":"inst_6957EF7F","tags":[],"resourceType":"GMRInstance",},
+      ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":32,"SerialiseHeight":42,"TileSerialiseData":[
 1073742176,1073742144,1073742112,1073742080,1073742048,546,1073742144,1073742112,1073742080,1073742048,546,1073742144,1073742112,1073742080,1073742048,546,1073742144,1073742112,1073742080,1073742048,546,1073742144,1073742112,1073742080,1073742048,546,1073742144,1073742112,1073742080,1073742048,546,1073742016,
 1879048738,1073741952,1073741920,1073741888,1073741856,1073741952,1073741920,1073741888,1073741856,1073741952,1073741920,1073741888,1073741856,1073741952,1073741920,1073741888,1073741856,1073741952,1073741920,1073741888,1073741856,1073741952,1073741920,1073741888,1073741856,1073741952,1073741920,1073741888,1073741856,1073741952,1073741920,1073742370,
@@ -59,14 +63,16 @@
 1073742184,257,258,259,260,261,262,263,264,265,266,267,257,258,259,260,261,262,263,264,257,258,259,260,261,262,263,264,265,266,267,1073742021,
 1073742188,1073742156,1073742124,1073742092,1073742060,1073742156,1073742124,1073742092,1073742060,1073742156,1073742124,1073742092,1073742060,1073742156,1073742124,1073742092,1073742060,1073742156,1073742124,1073742092,1073742060,1073742156,1073742124,1073742092,1073742060,1073742156,1073742124,1073742156,1073742124,1073742092,1073742060,1073742028,
 1073742189,1073742157,1073742125,1073742125,1073742125,1073742125,1073742125,1073742125,1073742125,1073742125,1073742125,1073742125,1073742125,1073742125,1073742125,1073742093,1073742093,1073742093,1073742093,1073742093,1073742093,1073742093,1073742093,1073742093,1073742093,1073742093,1073742093,1073742093,1073742093,1073742093,1073742061,1073742029,
-],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Chairs","tags":[],"resourceType":"GMRTileLayer",},
-    {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
+],},"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Chairs","tags":[],"resourceType":"GMRTileLayer",},
+    {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_26B869DC","path":"rooms/rm_movie_theater/rm_movie_theater.yy",},
+    {"name":"inst_440DADF6","path":"rooms/rm_movie_theater/rm_movie_theater.yy",},
+    {"name":"inst_6957EF7F","path":"rooms/rm_movie_theater/rm_movie_theater.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
