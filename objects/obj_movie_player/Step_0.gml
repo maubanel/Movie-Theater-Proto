@@ -33,3 +33,11 @@ if (tilemap_get_at_pixel(tilemap,bbox_left,bbox_side+vsp) != 0 || (tilemap_get_a
 
 
 y += vsp;
+
+
+
+//---- rotate test
+
+if(keyboard_check(vk_enter)){
+	image_angle += 90;
+}

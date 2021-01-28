@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_light","path":"sprites/spr_light/spr_light.yy",},"order":4,},
     {"id":{"name":"spr_chairs","path":"sprites/spr_chairs/spr_chairs.yy",},"order":16,},
     {"id":{"name":"rm_movie_theater","path":"rooms/rm_movie_theater/rm_movie_theater.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
@@ -10,7 +11,6 @@
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":1,},
     {"id":{"name":"obj_movinglight","path":"objects/obj_movinglight/obj_movinglight.yy",},"order":6,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":17,},
-    {"id":{"name":"spr_light","path":"sprites/spr_light/spr_light.yy",},"order":4,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":4,},
     {"id":{"name":"shd_light","path":"shaders/shd_light/shd_light.yy",},"order":3,},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},"order":3,},
