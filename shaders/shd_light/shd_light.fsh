@@ -2,7 +2,7 @@ varying vec2 pos;
 
 uniform vec2 u_pos;
 
-const float zz = 32.;
+const float zz = 300.;
 
 void main()
 {
