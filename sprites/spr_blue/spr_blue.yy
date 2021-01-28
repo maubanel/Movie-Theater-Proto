@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 2047,
-  "bbox_top": 64,
-  "bbox_bottom": 2047,
+  "bbox_right": 63,
+  "bbox_top": 0,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 2048,
-  "height": 2048,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5b53ac9e-5c71-45f5-be6e-9e1d47b300fe","path":"sprites/spr_chairs/spr_chairs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5b53ac9e-5c71-45f5-be6e-9e1d47b300fe","path":"sprites/spr_chairs/spr_chairs.yy",},"LayerId":{"name":"62bd4d24-57e9-4501-86cd-3c31ab08f008","path":"sprites/spr_chairs/spr_chairs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_chairs","path":"sprites/spr_chairs/spr_chairs.yy",},"resourceVersion":"1.0","name":"5b53ac9e-5c71-45f5-be6e-9e1d47b300fe","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8c3f79e6-201e-4b0c-b9be-970de7c49144","path":"sprites/spr_blue/spr_blue.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8c3f79e6-201e-4b0c-b9be-970de7c49144","path":"sprites/spr_blue/spr_blue.yy",},"LayerId":{"name":"045602bb-1414-433e-86c4-d21da3f6d5df","path":"sprites/spr_blue/spr_blue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_blue","path":"sprites/spr_blue/spr_blue.yy",},"resourceVersion":"1.0","name":"8c3f79e6-201e-4b0c-b9be-970de7c49144","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_chairs","path":"sprites/spr_chairs/spr_chairs.yy",},
+    "spriteId": {"name":"spr_blue","path":"sprites/spr_blue/spr_blue.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d5beec29-81c3-4f96-bfe3-de801b709823","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5b53ac9e-5c71-45f5-be6e-9e1d47b300fe","path":"sprites/spr_chairs/spr_chairs.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"feb293c6-2a48-4b0d-ade1-2bd37425bfa7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8c3f79e6-201e-4b0c-b9be-970de7c49144","path":"sprites/spr_blue/spr_blue.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_chairs","path":"sprites/spr_chairs/spr_chairs.yy",},
+    "parent": {"name":"spr_blue","path":"sprites/spr_blue/spr_blue.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_chairs",
+    "name": "spr_blue",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"62bd4d24-57e9-4501-86cd-3c31ab08f008","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"045602bb-1414-433e-86c4-d21da3f6d5df","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_chairs",
+  "name": "spr_blue",
   "tags": [],
   "resourceType": "GMSprite",
 }
