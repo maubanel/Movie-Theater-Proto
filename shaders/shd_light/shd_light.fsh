@@ -2,7 +2,7 @@ varying vec2 pos;
 
 uniform vec2 u_pos; //position of the light source
 
-const float zz = 300.;
+const float zz = 20.;
 
 void main()
 {

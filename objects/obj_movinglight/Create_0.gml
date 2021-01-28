@@ -1,1 +1,1 @@
-surface = surface_create(room_width,room_height);
+image_alpha -= .5;
