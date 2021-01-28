@@ -2,7 +2,7 @@ attribute vec3 in_Position;                  // (x,y,z)
 
 varying vec2 pos;
 
-uniform float u_z; //depth position
+uniform float u_z;
 
 void main()
 {

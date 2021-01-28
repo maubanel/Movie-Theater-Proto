@@ -17,7 +17,7 @@ with(obj_light){
 	shader_set(shd_light);
 	shader_set_uniform_f(_u_pos,x,y);
 	shader_set_uniform_f(_u_z,_z);
-	draw_rectangle(0,0,room_width,room_height,0);		//use this to like update the room size
+	draw_rectangle(0,0,320,180,0);
 	gpu_set_blendmode(bm_normal);
 	
 	_z--;
