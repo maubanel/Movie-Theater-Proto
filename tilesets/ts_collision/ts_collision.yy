@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_collision",
-    "path": "sprites/spr_collision/spr_collision.yy",
+    "name": "spr_collision_1",
+    "path": "sprites/spr_collision_1/spr_collision_1.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,
@@ -11,8 +11,8 @@
   "tilevsep": 0,
   "spriteNoExport": true,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "",
+    "path": "",
   },
   "out_tilehborder": 2,
   "out_tilevborder": 2,
