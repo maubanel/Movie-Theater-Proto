@@ -34,10 +34,42 @@ if (tilemap_get_at_pixel(tilemap,bbox_left,bbox_side+vsp) != 0 || (tilemap_get_a
 
 y += vsp;
 
+if (key_left)
+{
+	image_angle = 180;	
+}
 
+if (key_right)
+{
+	image_angle = 0;	
+}
 
-//---- rotate test
+if (key_up)
+{
+	image_angle = 90;	
+}
 
-if(keyboard_check(vk_enter)){
-	image_angle += 90;
+if (key_down)
+{
+	image_angle = 270;	
+}
+
+if (key_left && key_up)
+{
+	image_angle = 135;	
+}
+
+if (key_left && key_down)
+{
+	image_angle = 225;	
+}
+
+if (key_right &&  key_up)
+{
+	image_angle = 45;	
+}
+
+if (key_right && key_down)
+{
+	image_angle = 325;	
 }

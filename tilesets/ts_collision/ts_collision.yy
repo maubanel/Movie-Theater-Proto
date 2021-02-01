@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_collision_1",
-    "path": "sprites/spr_collision_1/spr_collision_1.yy",
+    "name": "spr_collision",
+    "path": "sprites/spr_collision/spr_collision.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,
