@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_movie_player","path":"objects/obj_movie_player/obj_movie_player.yy",},"order":0,},
+    {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":6,},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},"order":0,},
     {"id":{"name":"ts_collision","path":"tilesets/ts_collision/ts_collision.yy",},"order":0,},
     {"id":{"name":"obj_glasses","path":"objects/obj_glasses/obj_glasses.yy",},"order":10,},
@@ -25,7 +26,11 @@
     {"id":{"name":"obj_soda","path":"objects/obj_soda/obj_soda.yy",},"order":9,},
     {"id":{"name":"spr_glasses","path":"sprites/spr_glasses/spr_glasses.yy",},"order":11,},
     {"id":{"name":"rm_movie_theater","path":"rooms/rm_movie_theater/rm_movie_theater.yy",},"order":1,},
+<<<<<<< HEAD
     {"id":{"name":"p_glasses","path":"paths/p_glasses/p_glasses.yy",},"order":7,},
+=======
+    {"id":{"name":"fnt_timer","path":"fonts/fnt_timer/fnt_timer.yy",},"order":0,},
+>>>>>>> 803ee41ae33041bfbd500d613893a326b3aaec7a
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"obj_bald","path":"objects/obj_bald/obj_bald.yy",},"order":7,},
     {"id":{"name":"obj_green","path":"objects/obj_green/obj_green.yy",},"order":1,},
