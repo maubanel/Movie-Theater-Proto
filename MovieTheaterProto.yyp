@@ -39,6 +39,7 @@
     {"id":{"name":"spr_balding","path":"sprites/spr_balding/spr_balding.yy",},"order":8,},
     {"id":{"name":"obj_blue","path":"objects/obj_blue/obj_blue.yy",},"order":7,},
     {"id":{"name":"spr_light","path":"sprites/spr_light/spr_light.yy",},"order":6,},
+    {"id":{"name":"obj_game_over","path":"objects/obj_game_over/obj_game_over.yy",},"order":7,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -55,8 +56,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_movie_theater","path":"rooms/rm_movie_theater/rm_movie_theater.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_movie_theater","path":"rooms/rm_movie_theater/rm_movie_theater.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
