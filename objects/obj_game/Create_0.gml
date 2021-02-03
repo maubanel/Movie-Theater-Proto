@@ -5,3 +5,4 @@ game_time = 121 * 60;
 ChooseTarget();
 global.isLive = true;
 global.didWin = false; //going to need this for later
+audio_play_sound(mus_background, 1, true);
