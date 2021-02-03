@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function ChooseTarget()
 {
+	randomize();
 	var x_pos = -1;
 	var y_pos = choose(64, 256, 448, 640, 832, 1024, 1216);
 	

@@ -1,14 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-// Get angle between player and character
 var new_direction = point_direction(x, y, other.x, other.y);
 
-// reverses direction
-new_direction -= 180;
+//new_direction -= 100;
 
-x += lengthdir_x(192, new_direction);
-y += lengthdir_x(192, new_direction);
+//x += lengthdir_x(128, new_direction);
+//y += lengthdir_x(128, new_direction);
 
+//direction = point_direction(other.x, other.y, x , y);
+//speed = 6
+//motion_add(90, 3)
 
-show_debug_message(new_direction);
+if other.x>x {hdirection=1}else{hdirection=-1}
+	hspeed = hdirection*6
+	vspeed = -2
+	
+alarm[0] = room_speed * 1
+
