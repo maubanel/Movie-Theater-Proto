@@ -34,6 +34,7 @@
     {"id":{"name":"spr_target_seat","path":"sprites/spr_target_seat/spr_target_seat.yy",},"order":12,},
     {"id":{"name":"obj_bald","path":"objects/obj_bald/obj_bald.yy",},"order":8,},
     {"id":{"name":"obj_green","path":"objects/obj_green/obj_green.yy",},"order":1,},
+    {"id":{"name":"mus_background","path":"sounds/mus_background/mus_background.yy",},"order":0,},
     {"id":{"name":"p_green","path":"paths/p_green/p_green.yy",},"order":2,},
     {"id":{"name":"obj_grey","path":"objects/obj_grey/obj_grey.yy",},"order":9,},
     {"id":{"name":"spr_balding","path":"sprites/spr_balding/spr_balding.yy",},"order":8,},
