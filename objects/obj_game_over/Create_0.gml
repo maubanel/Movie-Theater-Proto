@@ -9,3 +9,6 @@ if(global.didWin){
 else{
 	goMessage = "Game Over!";
 }
+
+goMessage += @"
+Press R to restart!";

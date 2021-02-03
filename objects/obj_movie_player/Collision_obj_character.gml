@@ -12,9 +12,14 @@ var new_direction = point_direction(x, y, other.x, other.y);
 //motion_add(90, 3)
 
 if other.x>x {hdirection=1}else{hdirection=-1}
-	hspeed = hdirection*6
-	vspeed = -2
-	
+
+	if (!instance_place(x + hdirection * 6 * room_speed, y -2 * room_speed, obj_character))
+	{
+		hspeed = hdirection*6
+		vspeed = -2
+	}	
+alarm[0] = room_speed * 1
+
 
 
 if (!collide) {
