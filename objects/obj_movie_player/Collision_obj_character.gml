@@ -15,5 +15,11 @@ if other.x>x {hdirection=1}else{hdirection=-1}
 	hspeed = hdirection*6
 	vspeed = -2
 	
-alarm[0] = room_speed * 1
 
+
+if (!collide) {
+	var random_sound=(choose(Sound2, Sound3, Sound4));
+	audio_play_sound(random_sound, 1, false);
+	 collide = true;
+	 alarm[0] = room_speed * 1
+}
