@@ -19,7 +19,10 @@
 
 ## Jon Lai
 
-* 
+* Made character sprites
+* Made environmental sprites
+* Selected and implemented background music
+* Made spotlight sprite asset for lighting system
 
 ## Mel Cotchery
 
