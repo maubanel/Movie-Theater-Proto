@@ -1,8 +1,5 @@
 # Movie Theater Prototype
 
-## Marc Aubanel
-* Marc did something on this project
-
 
 ## Armando Fuentes
 
@@ -15,7 +12,10 @@
 
 ## Bailey Barnes 
 
-*
+* Watched tutorials on creating paths for objects
+* Turned character sprites into objects and creater a path for each character
+* Designed and set up the layout for the room
+* Added sound for collison 
 
 ## Jon Lai
 
